@@ -114,8 +114,12 @@ body{
     padding: 14px 70px;
     border-radius: 50px;
     margin-top: 20px;
+    transition: .5s;
 }
 
+.contexto a:hover{
+    transform: scale(1.1);
+}
 /* ESTILO MAIN INDEX */
 
 .main-index{
@@ -217,8 +221,8 @@ body{
     display: flex;
     flex-flow: row, wrap;
     align-items: center;
-    background: rgb(11,31,130);
-    background: radial-gradient(circle, rgba(11,31,130,1) 16%, rgba(120,152,255,1) 45%, rgba(249,59,107,1) 100%);
+    background: rgb(143,152,255);
+    background: linear-gradient(90deg, rgba(143,152,255,1) 16%, rgba(109,146,255,1) 45%, rgba(255,158,158,1) 100%);
 }
 
 .section-two article{
@@ -255,10 +259,9 @@ body{
     background-color: white;
 }
 
-
 .contenedor-texto-2 button a{
     text-decoration: none;
-    color:rgb(1,108,202);
+    color:#1c1c1d;
     font-weight: 400;
     font-size: 1rem;
 }

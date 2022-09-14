@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;600&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./assets/img/nike-icono.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Inicio NIke</title>
 </head>
@@ -38,7 +39,7 @@
 
     <main class="main-index">
 
-        <section class="section-one">
+        <section class="section-one" data-aos="fade-right">
 
             <div class="barra-vertical"></div>
             <div class="contenedor-texto">
@@ -56,10 +57,10 @@
         </section>
 
         <section class="section-two">
-            <article><img src="./assets/img/modelo1.png" alt="modelo1"></article>
-            <article><img src="./assets/img/modelo2.png" alt="modelo2"></article>
-            <article><img src="./assets/img/modelo3.png" alt="modelo3"></article>
-            <div class="contenedor-texto-2">
+            <article data-aos="fade-up"><img src="./assets/img/modelo1.png" alt="modelo1"></article>
+            <article data-aos="zoom-in"><img src="./assets/img/modelo2.png" alt="modelo2"></article>
+            <article data-aos="fade-down"><img src="./assets/img/modelo3.png" alt="modelo3"></article>
+            <div class="contenedor-texto-2"  data-aos="fade-left">
                 <h2>CAMISETAS CLUBES DE EUROPA</h2>
                 <div class="botones">
                     <button type="button"><a href="https://www.nike.com/ar/futbol/jersey-shop">VER MAS</a></button>
@@ -96,5 +97,9 @@
        </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
