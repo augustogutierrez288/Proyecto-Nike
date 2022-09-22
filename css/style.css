@@ -121,15 +121,11 @@ body{
 
 /* personalizacion de index sobre nosotros*/
 
-.bg-black{
-    background-color: rgb(33,37,41);
-}
-
 .article1 h2{
     text-align: right;
     font-size: 4rem;
     font-weight: 900;
-    color: black;
+    color: rgb(33,37,41);
     padding-right: 10px;
 }
 
@@ -141,35 +137,38 @@ body{
     padding-left: 10px;
 }
 
-.article3 {
+.articles {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.article3 p{
+.article-p-light{
     color: white;
     font-size: 1rem;
     font-weight: 300;
+    width: 70%;
+    height: auto;
+
 }
 
-.article4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.article-p-dark{
+    color: rgb(33,37,41);
+    font-size: 1rem;
+    font-weight: 300;
+    width: 70%;
+    height: auto;
+
 }
 
-.article4 img{
-    width: 100%;
-    height: 400px;
+.img{
+    width: 60%;
+    height: auto;
 }
 
-.article1, .article2,
-.article3, .article4, .section1, .section2{
-    margin: 0;
-    padding: 0;
-}
 
 
 
