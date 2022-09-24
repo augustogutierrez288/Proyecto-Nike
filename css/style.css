@@ -78,13 +78,17 @@ body{
     opacity: .5;
     mix-blend-mode: overlay;
 }
-/* quitar padding y retoques a section del main index*/
+/*retoques a section del main index*/
 .redondeo-card{
     border-radius: 20px !important;
     border-color: transparent !important;
 }
-.caja-0{
-    padding: 0 !important;
+.img-sec-dimen{
+    width: 100% !important;
+    height: 100% !important;
+}
+.card {
+   width: 90% !important;
 }
 .contexto{
     position: absolute;
@@ -127,6 +131,8 @@ body{
     font-weight: 900;
     color: rgb(33,37,41);
     padding-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .article2 h2{
@@ -135,6 +141,8 @@ body{
     font-weight: 900;
     color: white;
     padding-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .articles {
@@ -152,7 +160,8 @@ body{
     font-weight: 300;
     width: 70%;
     height: auto;
-
+    padding-top: 22px;
+    padding-bottom: 22px;
 }
 
 .article-p-dark{
@@ -161,10 +170,21 @@ body{
     font-weight: 300;
     width: 70%;
     height: auto;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
 
+.article-ultimo {
+    height: 400px;
 }
 
 .img{
+    width: 60%;
+    height: auto;
+}
+
+.video2{
+    margin: 1rem;
     width: 60%;
     height: auto;
 }
@@ -204,9 +224,17 @@ body{
     margin-top: 50px;
     background-color: #292828;
 }
+.caja-h3-footer{
+    padding: 0;
+    margin: 16px;
+}
+.h3-footer{
+    display: none;
+}
+
 .footer .lista1{
-    margin-top: 20px;
-    margin-left: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
 }
 .footer .lista1 li{
     list-style-type: none;
@@ -220,8 +248,8 @@ body{
 }
 
 .footer .lista2{
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-top: 15px;
+    margin-left: 20px;
 }
 .footer .lista2 li{
     list-style-type: none;
@@ -237,14 +265,12 @@ body{
 .logos a img{
     margin-top: 20px;
     margin-left: 6px;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 
 .derechos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 10px 0 10px 0;
 }
 
 .derechos p{
@@ -305,4 +331,148 @@ body{
 .redondeo{
     border-radius: 20px;
     border-color: #292828;
+}
+
+@media only screen and ( max-width: 992px){
+    .article-p-light{
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+    
+    .article-p-dark{
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+
+    .article-ultimo {
+        height: auto;
+    }
+
+    .card {
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .img-sec-dimen{
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .contexto h1{
+        font-size: 9rem;
+    }
+
+    .h2-card{
+        font-size: 3rem;
+    }
+
+    .lista1, .lista2{
+        text-align: center;
+    }
+
+    .h3-footer{
+        display: block;
+        color: white;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .logos{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 5px 0 5px 0;
+    }
+}
+
+@media only screen and ( max-width: 668px){
+    .article1 h2{
+        font-size: 55px;
+    }
+    
+    .article2 h2{
+        font-size: 55px;
+    }
+
+    .h2-card{
+        font-size: 2rem;
+    }
+
+    .contexto h1{
+        font-size: 8rem;
+    }
+
+    .logos{
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .logos a img{
+        margin-left: 6px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+@media only screen and ( max-width: 576px){
+    .article1 h2{
+        font-size: 2rem;
+    }
+    
+    .article2 h2{
+        font-size: 2rem;
+    }
+
+    .video2{
+        width: 70%;
+        height: 80%;
+    }
+
+    .h2-card{
+        font-size: 1rem;
+    }
+
+    .contexto h1{
+        font-size: 5rem;
+    }
+    .contexto h3{
+        font-size: 1rem;
+    }
+
+    .article2 h2{
+        font-size: 2rem;
+    }
+
+    .video{
+        height: 600px;
+    }
+
+    .capa{
+        height: 600px;
+    }
+    .caja-h3-footer{
+        margin: 16px 0px 16px 0;
+    }
+    .h3-footer{
+        padding-left: 20px;
+        display: block;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+    } 
+    .footer .lista1{
+        margin-top: 10px;
+    }
+    .logos{
+        text-align: center;
+        padding-left: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .logos a img{
+        margin-left: 8px;
+        width: 20px;
+        height: 20px;
+    }
 }
