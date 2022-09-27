@@ -1,0 +1,71 @@
+/* personalizacion de index sobre nosotros*/
+
+.article1{
+    h2{
+        text-align: right;
+        font-size: 4rem;
+        font-weight: 900;
+        color: rgb(33,37,41);
+        padding-right: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+}
+
+.article2{
+    h2{
+        text-align: left;
+        font-size: 4rem;
+        font-weight: 900;
+        color: white;
+        padding-left: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+}
+
+.articles {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-p-light{
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    width: 70%;
+    height: auto;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.article-p-dark{
+    color: rgb(33,37,41);
+    font-size: 1rem;
+    font-weight: 300;
+    width: 70%;
+    height: auto;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.article-ultimo {
+    height: 400px;
+}
+
+.img{
+    width: 60%;
+    height: auto;
+}
+
+.video2{
+    margin: 1rem;
+    width: 60%;
+    height: auto;
+}
