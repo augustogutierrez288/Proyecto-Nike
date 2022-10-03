@@ -1,9 +1,7 @@
-@import "footer";
+@import "body";
 @import "nav";
+@import "footer";
 @import "index";
 @import "page-sobre-nosotros";
-
-body{
-    overflow-x: hidden !important;
-    font-family: 'Heebo', sans-serif !important;
-}
+@import "page-productos";
+@import "medias-queries";

@@ -1,74 +1,73 @@
 body {
-    overflow-x: hidden !important;
-    font-family: "Heebo", sans-serif !important;
+  overflow-x: hidden !important;
+  font-family: "Heebo", sans-serif !important;
 }
+
 .navbar-collapse {
   -webkit-box-pack: end !important;
       -ms-flex-pack: end !important;
           justify-content: flex-end !important;
 }
+
 .navbar-dark .navbar-toggler-icon {
   background-image: url(../assets/img/menu-hambuguesa.png) !important;
 }
+
 .nav-link {
   text-align: right !important;
   font-weight: 300 !important;
   font-size: 1rem !important;
 }
+
 .footer {
-    margin-top: 50px;
-    background-color: #292828;
+  margin-top: 50px;
+  background-color: #292828;
 }
-  
-.caja-h3-footer {
-    padding: 0;
-    margin: 16px;
-}
-  
-.h3-footer {
-    display: none;
-}
-  
+
 .footer .lista1 {
-    margin-top: 15px;
-    margin-left: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
 }
 .footer .lista1 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 .footer .lista1 li a {
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: 400;
-    color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
 }
+
 .footer .lista2 {
-    margin-top: 15px;
-    margin-left: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
 }
 .footer .lista2 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 .footer .lista2 li a {
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: 200;
-    color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 200;
+  color: white;
 }
+
 .logos a img {
-    margin-top: 20px;
-    margin-left: 6px;
-    width: 25px;
-    height: 25px;
+  margin-top: 20px;
+  margin-left: 6px;
+  width: 25px;
+  height: 25px;
 }
+
 .derechos {
-    margin: 10px 0 10px 0;
+  margin: 10px 0 10px 0;
 }
 .derechos p {
-    color: white;
-    font-size: 10px;
-    font-weight: 200;
+  color: white;
+  font-size: 10px;
+  font-weight: 200;
 }
+
 .card {
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -275,147 +274,179 @@ body {
   height: auto;
 }
 
-
-@media only screen and ( max-width: 992px){
-    .article-p-light{
-        padding-top: 22px;
-        padding-bottom: 22px;
-    }
-    
-    .article-p-dark{
-        padding-top: 22px;
-        padding-bottom: 22px;
-    }
-
-    .article-ultimo {
-        height: auto;
-    }
-
-    .card {
-        width: auto !important;
-        height: auto !important;
-    }
-
-    .img-sec-dimen{
-        width: auto !important;
-        height: auto !important;
-    }
-
-    .contexto h1{
-        font-size: 9rem;
-    }
-
-    .h2-card{
-        font-size: 3rem;
-    }
-
-    .lista1, .lista2{
-        text-align: center;
-    }
-
-    .h3-footer{
-        display: block;
-        color: white;
-        font-size: 2rem;
-        font-weight: 500;
-    }
-    .logos{
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 5px 0 5px 0;
-    }
+.enlaces {
+  margin-top: 30px;
+  padding: 6px 20px;
+  border-radius: 30px;
+  border: 1.5px solid transparent;
+  background: rgb(33, 37, 41);
+  color: #fff;
+  text-decoration: none;
+}
+.enlaces:hover {
+  background-color: #ff6b08;
+  color: #fff;
 }
 
-@media only screen and ( max-width: 668px){
-    .article1 h2{
-        font-size: 55px;
-    }
-    
-    .article2 h2{
-        font-size: 55px;
-    }
-
-    .h2-card{
-        font-size: 2rem;
-    }
-
-    .contexto h1{
-        font-size: 8rem;
-    }
-
-    .logos{
-        text-align: center;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-
-    .logos a img{
-        margin-left: 6px;
-        width: 20px;
-        height: 20px;
-    }
+.h2-snkrs {
+  padding-top: 20px;
+  font-size: 5rem;
+  font-weight: 900;
+  color: rgb(33, 37, 41);
 }
 
+.carousel-caption--relative {
+  position: relative;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 0;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #000;
+  text-align: center;
+}
 
-@media only screen and ( max-width: 576px){
-    .article1 h2{
-        font-size: 2rem;
-    }
-    
-    .article2 h2{
-        font-size: 2rem;
-    }
+@media only screen and (max-width: 992px) {
+  .article-p-light {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    text-align: center;
+  }
 
-    .video2{
-        width: 70%;
-        height: 80%;
-    }
+  .article-p-dark {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    text-align: center;
+  }
 
-    .h2-card{
-        font-size: 1rem;
-    }
+  .article-ultimo {
+    height: auto;
+  }
 
-    .contexto h1{
-        font-size: 5rem;
-    }
-    .contexto h3{
-        font-size: 1rem;
-    }
+  .card {
+    width: auto !important;
+    height: auto !important;
+  }
 
-    .article2 h2{
-        font-size: 2rem;
-    }
+  .img-sec-dimen {
+    width: auto !important;
+    height: auto !important;
+  }
 
-    .video{
-        height: 600px;
-    }
+  .contexto h1 {
+    font-size: 9rem;
+  }
 
-    .capa{
-        height: 600px;
-    }
-    .caja-h3-footer{
-        margin: 16px 0px 16px 0;
-    }
-    .h3-footer{
-        padding-left: 20px;
-        display: block;
-        color: white;
-        font-size: 1rem;
-        font-weight: 500;
-    } 
-    .footer .lista1{
-        margin-top: 10px;
-    }
-    .logos{
-        text-align: center;
-        padding-left: 15px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
+  .h2-card {
+    font-size: 3rem;
+  }
 
-    .logos a img{
-        margin-left: 8px;
-        width: 20px;
-        height: 20px;
-    }
+  .lista1, .lista2 {
+    text-align: center;
+  }
+
+  .logos {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 0 5px 0;
+  }
+
+  .h2-snkrs {
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width: 668px) {
+  .article1 h2 {
+    font-size: 55px;
+  }
+
+  .article2 h2 {
+    font-size: 55px;
+  }
+
+  .h2-card {
+    font-size: 2rem;
+  }
+
+  .contexto h1 {
+    font-size: 8rem;
+  }
+
+  .logos {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .logos a img {
+    margin-left: 6px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .h2-snkrs {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .article1 h2 {
+    font-size: 2rem;
+  }
+
+  .article2 h2 {
+    font-size: 2rem;
+  }
+
+  .video2 {
+    width: 70%;
+    height: 80%;
+  }
+
+  .h2-card {
+    font-size: 1rem;
+  }
+
+  .contexto h1 {
+    font-size: 5rem;
+  }
+
+  .contexto h3 {
+    font-size: 1rem;
+  }
+
+  .article2 h2 {
+    font-size: 2rem;
+  }
+
+  .video {
+    height: 600px;
+  }
+
+  .capa {
+    height: 600px;
+  }
+
+  .footer .lista1 {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .footer .lista2 {
+    margin-left: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .logos {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .logos a img {
+    margin-left: 8px;
+    width: 20px;
+    height: 20px;
+  }
 }

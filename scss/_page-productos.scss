@@ -1,0 +1,31 @@
+.enlaces{
+    margin-top: 30px;
+    padding: 6px 20px;
+    border-radius: 30px;
+    border: 1.5px solid transparent;
+    background: rgb(33,37,41);
+    color: #fff;
+    text-decoration: none;
+    &:hover{
+        background-color: #ff6b08;
+        color: #fff;
+    }
+}
+
+.h2-snkrs{
+    padding-top: 20px;
+    font-size: 5rem;
+    font-weight: 900;
+    color: rgb(33,37,41);
+}
+
+.carousel-caption--relative {
+    position: relative;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 0;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #000;
+    text-align: center;
+}
