@@ -10,7 +10,7 @@ body {
 }
 
 .navbar-dark .navbar-toggler-icon {
-  background-image: url(../assets/img/menu-hambuguesa.png) !important;
+  background-image: url(../assets/img/menu-hambuguesa.webp) !important;
 }
 
 .nav-link {
@@ -21,9 +21,8 @@ body {
 
 .footer {
   margin-top: 50px;
-  background-color: #292828;
+  background-color: rgb(33, 37, 41);
 }
-
 .footer .lista1 {
   margin-top: 15px;
   margin-left: 20px;
@@ -35,9 +34,8 @@ body {
   text-decoration: none;
   font-size: 12px;
   font-weight: 400;
-  color: white;
+  color: #fff;
 }
-
 .footer .lista2 {
   margin-top: 15px;
   margin-left: 20px;
@@ -49,7 +47,7 @@ body {
   text-decoration: none;
   font-size: 12px;
   font-weight: 200;
-  color: white;
+  color: #fff;
 }
 
 .logos a img {
@@ -63,12 +61,14 @@ body {
   margin: 10px 0 10px 0;
 }
 .derechos p {
-  color: white;
+  color: #fff;
   font-size: 10px;
   font-weight: 200;
 }
 
 .card {
+  width: 90% !important;
+  height: 100% !important;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -82,16 +82,23 @@ body {
 /* personalizacion del h2 de la card*/
 .h2-card {
   font-weight: 900;
-  color: white;
+  color: #fff;
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.h2-card--dark {
+  font-weight: 900;
+  color: rgb(33, 37, 41);
   font-size: 4rem;
   margin-bottom: 30px;
 }
 
 /* personalizacion de los botones de la card*/
 .btn-primary {
-  color: black !important;
-  background-color: white !important;
-  border-color: white !important;
+  color: rgb(33, 37, 41) !important;
+  background-color: #fff !important;
+  border-color: #fff !important;
 }
 
 /* personalizacion del div que contiene al video*/
@@ -145,10 +152,6 @@ body {
   height: 100% !important;
 }
 
-.card {
-  width: 90% !important;
-}
-
 .contexto {
   position: absolute;
   display: -webkit-box;
@@ -195,9 +198,48 @@ body {
 }
 
 .btn-primary-2 {
-  color: white !important;
-  background-color: black !important;
-  border-color: black !important;
+  color: #fff !important;
+  background-color: rgb(33, 37, 41) !important;
+  border-color: rgb(33, 37, 41) !important;
+}
+
+.m {
+  margin: 40px 0px 0px 0px;
+}
+
+/*enlaces del carrucel*/
+.enlaces {
+  margin-top: 30px;
+  padding: 6px 20px;
+  border-radius: 30px;
+  border: 1.5px solid transparent;
+  background: rgb(33, 37, 41);
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.enlaces:hover {
+  background-color: rgb(173, 181, 189);
+  color: rgb(33, 37, 41);
+}
+
+.h2-titulos {
+  padding-top: 20px;
+  font-size: 5rem;
+  font-weight: 900;
+  color: rgb(33, 37, 41);
+}
+
+.carousel-caption--relative {
+  position: relative;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 0;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #000;
+  text-align: center;
 }
 
 /* personalizacion de index sobre nosotros*/
@@ -215,7 +257,7 @@ body {
   text-align: left;
   font-size: 4rem;
   font-weight: 900;
-  color: white;
+  color: #fff;
   padding-left: 10px;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -240,7 +282,7 @@ body {
 }
 
 .article-p-light {
-  color: white;
+  color: #fff;
   font-size: 1rem;
   font-weight: 300;
   width: 70%;
@@ -274,38 +316,6 @@ body {
   height: auto;
 }
 
-.enlaces {
-  margin-top: 30px;
-  padding: 6px 20px;
-  border-radius: 30px;
-  border: 1.5px solid transparent;
-  background: rgb(33, 37, 41);
-  color: #fff;
-  text-decoration: none;
-}
-.enlaces:hover {
-  background-color: #ff6b08;
-  color: #fff;
-}
-
-.h2-snkrs {
-  padding-top: 20px;
-  font-size: 5rem;
-  font-weight: 900;
-  color: rgb(33, 37, 41);
-}
-
-.carousel-caption--relative {
-  position: relative;
-  right: 15%;
-  bottom: 1.25rem;
-  left: 0;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-  color: #000;
-  text-align: center;
-}
-
 @media only screen and (max-width: 992px) {
   .article-p-light {
     padding-top: 22px;
@@ -324,13 +334,13 @@ body {
   }
 
   .card {
-    width: auto !important;
+    width: 90% !important;
     height: auto !important;
   }
 
   .img-sec-dimen {
-    width: auto !important;
-    height: auto !important;
+    width: 100% !important;
+    height: 100% !important;
   }
 
   .contexto h1 {
@@ -338,6 +348,10 @@ body {
   }
 
   .h2-card {
+    font-size: 3rem;
+  }
+
+  .h2-card--dark {
     font-size: 3rem;
   }
 
@@ -364,8 +378,17 @@ body {
     font-size: 55px;
   }
 
+  .card {
+    width: 85% !important;
+    height: auto !important;
+  }
+
   .h2-card {
-    font-size: 2rem;
+    font-size: 2, 5rem;
+  }
+
+  .h2-card--dark {
+    font-size: 2, 5rem;
   }
 
   .contexto h1 {
@@ -402,8 +425,21 @@ body {
     height: 80%;
   }
 
+  .card {
+    width: 80% !important;
+    height: auto !important;
+  }
+
+  .card-title {
+    margin-bottom: 20px !important;
+  }
+
   .h2-card {
-    font-size: 1rem;
+    font-size: 2rem;
+  }
+
+  .h2-card--dark {
+    font-size: 2rem;
   }
 
   .contexto h1 {

@@ -1,7 +1,177 @@
-@import "body";
-@import "nav";
-@import "footer";
-@import "index";
-@import "page-sobre-nosotros";
-@import "page-productos";
-@import "medias-queries";
+@import "./variables";
+@import "./mixins";
+@import "./body";
+@import "./nav";
+@import "./footer";
+@import "./index";
+@import "./page-productos";
+@import "./page-sobre-nosotros";
+
+@media only screen and ( max-width: 992px){
+    .article-p-light{
+        padding-top: 22px;
+        padding-bottom: 22px;
+        text-align: center;
+    }
+    
+    .article-p-dark{
+        padding-top: 22px;
+        padding-bottom: 22px;
+        text-align: center;
+    }
+
+    .article-ultimo {
+        height: auto;
+    }
+
+    .card {
+        width: 90% !important;
+        height: auto !important;
+    }
+
+    .img-sec-dimen{
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .contexto h1{
+        font-size: 9rem;
+    }
+
+    .h2-card{
+        font-size: 3rem;
+    }
+
+    .h2-card--dark{
+        font-size: 3rem;
+    }
+
+    .lista1, .lista2{
+        text-align: center;
+    }
+
+    .logos{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 5px 0 5px 0;
+    }
+
+    .h2-snkrs{
+        font-size: 4rem;
+    }
+}
+
+@media only screen and ( max-width: 668px){
+    .article1 h2{
+        font-size: 55px;
+    }
+    
+    .article2 h2{
+        font-size: 55px;
+    }
+
+    .card {
+        width: 85% !important;
+        height: auto !important;
+    }
+
+    .h2-card{
+        font-size: 2,5rem;
+    }
+
+    .h2-card--dark{
+        font-size: 2,5rem;
+    }
+
+    .contexto h1{
+        font-size: 8rem;
+    }
+
+    .logos{
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .logos a img{
+        margin-left: 6px;
+        width: 20px;
+        height: 20px;
+    }
+    .h2-snkrs{
+        font-size: 3rem;
+    }
+}
+
+
+@media only screen and ( max-width: 576px){
+    .article1 h2{
+        font-size: 2rem;
+    }
+    
+    .article2 h2{
+        font-size: 2rem;
+    }
+
+    .video2{
+        width: 70%;
+        height: 80%;
+    }
+
+    .card {
+        width: 80% !important;
+        height: auto !important;
+    }
+
+    .card-title{
+        margin-bottom: 20px !important;
+    }
+    .h2-card{
+        font-size: 2rem;
+    }
+
+    .h2-card--dark{
+        font-size: 2rem;
+    }
+
+    .contexto h1{
+        font-size: 5rem;
+    }
+    .contexto h3{
+        font-size: 1rem;
+    }
+
+    .article2 h2{
+        font-size: 2rem;
+    }
+
+    .video{
+        height: 600px;
+    }
+
+    .capa{
+        height: 600px;
+    }
+
+    .footer .lista1{
+        margin-top: 20px;
+        margin-left: 0;
+        padding: 0;
+    }
+    .footer .lista2{
+      margin-left: 0;
+      margin-bottom: 0;
+      padding: 0;
+    }
+    .logos{
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .logos a img{
+        margin-left: 8px;
+        width: 20px;
+        height: 20px;
+    }
+}

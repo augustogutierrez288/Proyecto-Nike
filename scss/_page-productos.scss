@@ -1,22 +1,24 @@
+/*enlaces del carrucel*/
 .enlaces{
     margin-top: 30px;
     padding: 6px 20px;
     border-radius: 30px;
     border: 1.5px solid transparent;
-    background: rgb(33,37,41);
-    color: #fff;
+    background: map-get($colores, dark3 );
+    color: map-get($colores, light );
     text-decoration: none;
+    transition: .5s;
     &:hover{
-        background-color: #ff6b08;
-        color: #fff;
+        background-color: map-get($colores, gris-claro );
+        color: map-get($colores, dark3 );
     }
 }
 
-.h2-snkrs{
+.h2-titulos{
     padding-top: 20px;
     font-size: 5rem;
     font-weight: 900;
-    color: rgb(33,37,41);
+    color: map-get($colores, dark3 );
 }
 
 .carousel-caption--relative {
@@ -26,6 +28,6 @@
     left: 0;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
-    color: #000;
+    color: map-get($colores, dark1 );
     text-align: center;
 }

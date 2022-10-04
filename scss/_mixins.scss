@@ -1,0 +1,16 @@
+@mixin flexbox-center($direccion){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin article-p($color){
+    color: map-get($colores, $color );
+    font-size: 1rem;
+    font-weight: 300;
+    width: 70%;
+    height: auto;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
