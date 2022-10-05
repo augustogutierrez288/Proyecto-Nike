@@ -1,5 +1,7 @@
-/* personalizacion de index sobre nosotros*/
-
+/* personalizacion la page sobre nosotros*/
+.color-main{
+    background-color: map-get($colores, light );
+}
 .article1{
     h2{
         text-align: right;

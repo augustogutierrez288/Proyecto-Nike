@@ -242,7 +242,11 @@ body {
   text-align: center;
 }
 
-/* personalizacion de index sobre nosotros*/
+/* personalizacion la page sobre nosotros*/
+.color-main {
+  background-color: #fff;
+}
+
 .article1 h2 {
   text-align: right;
   font-size: 4rem;
