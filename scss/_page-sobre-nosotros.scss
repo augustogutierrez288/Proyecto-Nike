@@ -1,0 +1,58 @@
+/* personalizacion la page sobre nosotros*/
+.color-main{
+    background-color: map-get($colores, light );
+}
+.article1{
+    h2{
+        text-align: right;
+        font-size: 4rem;
+        font-weight: 900;
+        color: map-get($colores, dark3 );
+        padding-right: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+}
+
+.article2{
+    h2{
+        text-align: left;
+        font-size: 4rem;
+        font-weight: 900;
+        color: map-get($colores, light );
+        padding-left: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+}
+
+.articles {
+    margin: 0;
+    padding: 0;
+    @include flexbox-center(column)
+}
+
+.article-p-light{
+    @include article-p(light)
+}
+
+.article-p-dark{
+    @include article-p(dark3)
+}
+
+.article-ultimo {
+    height: 400px;
+}
+
+.img{
+    width: 60%;
+    height: auto;
+}
+
+.video2{
+    margin: 1rem;
+    width: 60%;
+    height: auto;
+}
