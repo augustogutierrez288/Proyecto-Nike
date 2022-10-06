@@ -1,0 +1,104 @@
+.h1-tiendas{
+    margin: 30px 0 30px 0;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    color: map-get($colores, dark3 );
+}
+
+.conteiner-padre{
+    @include flexbox-center(row);
+    width: 100vw;
+    height: 70vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: map-get($colores, light );
+}
+.conteiner-hijo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+.panel{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    @include flexbox-center(column);
+    width: 20px;
+    height: 100%;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    -webkit-transition: all 700ms ease-in;
+    div{
+        width: 70%;
+        height: 80%;
+        margin: 0;
+        padding: 0;
+        @include flexbox-center(column);
+        text-align: center;
+        h3{
+            font-size: 1rem;
+            font-weight: 200;
+            margin-bottom: 15px;
+            opacity: 0; 
+        }
+        h2{
+            font-size: 2rem;
+            // font-family: "Nike Futura","Helvetica Neue",Helvetica,Arial,sans-serif;;
+            font-weight: 900;
+            margin-bottom: 25px;
+            opacity: 0;
+        }
+        p{
+            font-size: 1rem;
+            font-weight: 300;
+            margin: 0;
+            opacity: 0;
+        }
+    }
+}
+
+.panel.active{
+    flex: 5;
+    div{
+        h3,h2,p{
+            opacity: 1;
+            transition: opacity 0.3s ease-in 0.4s;
+        }
+    }
+}
+
+#panel1{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_540,c_limit/e405a031-15cc-4813-aee1-7a427cca45a6/tiendas.jpg);
+}
+
+#panel2{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_540,c_limit/976c7331-adad-471e-abf4-8c328f29560c/tiendas.jpg);
+}
+
+#panel3{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_540,c_limit/4b2ca8e1-cfac-4cb6-9804-6aa493aad9ec/tiendas.jpg);
+}
+
+#panel4{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_540,c_limit/35d08127-2fb4-440a-b982-e45195526405/tiendas.jpg);
+}
+
+#panel5{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_540,c_limit/32e66626-814a-41f7-b189-61b808eb2e5e/tiendas.jpg);
+}
+
+#panel6{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_540,c_limit/a29947fc-025b-47b4-b7ff-24c354f083fc/tiendas.jpg);
+}
+
+#panel7{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_540,c_limit/5a258754-454b-4e1a-9e92-872b46d05f61/tiendas.jpg);
+}

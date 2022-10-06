@@ -6,6 +6,8 @@
 @import "./index";
 @import "./page-productos";
 @import "./page-sobre-nosotros";
+@import "./page-tiendas";
+@import "./page-contactos";
 
 @media only screen and ( max-width: 992px){
     .article-p-light{
@@ -25,7 +27,7 @@
     }
 
     .card {
-        width: 90% !important;
+        width: 80% !important;
         height: auto !important;
     }
 
@@ -59,7 +61,41 @@
     .h2-snkrs{
         font-size: 4rem;
     }
+
+    .conteiner-padre{
+        height: auto;
+    }
+    .conteiner-hijo{
+        flex-direction: column;
+        height: 100%;
+    }
+    .panel{
+        width: 100%;
+        height: 30px;
+    }
+
+    .panel{
+        div{
+            width: auto;
+            height: auto;
+            justify-content: space-between;
+            h3{
+                font-size: 2rem;
+            }
+            h2{
+                font-size: 4rem;
+            }
+            p{
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .caja-padre{
+        @include flexbox-center(column);
+    }
 }
+
 
 @media only screen and ( max-width: 668px){
     .article1 h2{
@@ -100,6 +136,27 @@
     }
     .h2-snkrs{
         font-size: 3rem;
+    }
+
+    .h1-tiendas{
+        font-size: 3rem;
+    }
+
+    .panel{
+        div{
+            width: auto;
+            height: auto;
+            justify-content: space-between;
+            h3{
+                font-size: 1rem;
+            }
+            h2{
+                font-size: 3rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
     }
 }
 
@@ -174,4 +231,23 @@
         width: 20px;
         height: 20px;
     }
+
+    .h1-tiendas{
+        font-size: 40px;
+    }
+
+    .panel.active{
+        flex: 4;
+    }
+
+    .cajas{
+        margin: 20px 10px 0 10px;
+        width: 230px;
+        height: 270px;
+        img{
+            width: 50px;
+            margin: 20px 0 20px 0;
+        }
+    }
+
 }
