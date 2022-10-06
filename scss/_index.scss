@@ -19,13 +19,13 @@
 
 .h2-card--dark{
     font-weight: 900;
-    color: map-get($colores, dark3 );
+    color: map-get($colores, dark1 );
     font-size: 4rem;
     margin-bottom: 30px;
 }
 /* personalizacion de los botones de la card*/
 .btn-primary {
-    color: map-get($colores, dark3 ) !important;
+    color: map-get($colores, dark1 ) !important;
     background-color: map-get($colores, light ) !important;
     border-color: map-get($colores, light ) !important;
 }
@@ -103,8 +103,8 @@
 
 .btn-primary-2 {
     color: map-get($colores, light ) !important;
-    background-color: map-get($colores, dark3 ) !important;
-    border-color: map-get($colores, dark3 ) !important;
+    background-color: map-get($colores, dark1 ) !important;
+    border-color: map-get($colores, dark1 ) !important;
 }
 
 .m{

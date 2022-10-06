@@ -2,12 +2,14 @@
     justify-content: flex-end !important;
 }
 
-.navbar-dark .navbar-toggler-icon {
-    background-image: url(../assets/img/menu-hambuguesa.webp) !important;
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../assets/img/menu-hamburguesa-black.webp) !important;
 }
-
-.nav-link {
-    text-align: right !important;
-    font-weight: 300 !important;
-    font-size: 1rem !important;
+.navbar-nav{
+    .nav-link {
+        padding-right: 10px;
+        text-align: right !important;
+        font-weight: 400 !important;
+        font-size: 1rem !important;
+    }
 }

@@ -9,19 +9,20 @@ body {
           justify-content: flex-end !important;
 }
 
-.navbar-dark .navbar-toggler-icon {
-  background-image: url(../assets/img/menu-hambuguesa.webp) !important;
+.navbar-light .navbar-toggler-icon {
+  background-image: url(../assets/img/menu-hamburguesa-black.webp) !important;
 }
 
-.nav-link {
+.navbar-nav .nav-link {
+  padding-right: 10px;
   text-align: right !important;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
   font-size: 1rem !important;
 }
 
 .footer {
   margin-top: 50px;
-  background-color: rgb(33, 37, 41);
+  background-color: #000;
 }
 .footer .lista1 {
   margin-top: 15px;
@@ -89,14 +90,14 @@ body {
 
 .h2-card--dark {
   font-weight: 900;
-  color: rgb(33, 37, 41);
+  color: #000;
   font-size: 4rem;
   margin-bottom: 30px;
 }
 
 /* personalizacion de los botones de la card*/
 .btn-primary {
-  color: rgb(33, 37, 41) !important;
+  color: #000 !important;
   background-color: #fff !important;
   border-color: #fff !important;
 }
@@ -199,8 +200,8 @@ body {
 
 .btn-primary-2 {
   color: #fff !important;
-  background-color: rgb(33, 37, 41) !important;
-  border-color: rgb(33, 37, 41) !important;
+  background-color: #000 !important;
+  border-color: #000 !important;
 }
 
 .m {
@@ -213,7 +214,7 @@ body {
   padding: 6px 20px;
   border-radius: 30px;
   border: 1.5px solid transparent;
-  background: rgb(33, 37, 41);
+  background: #000;
   color: #fff;
   text-decoration: none;
   -webkit-transition: 0.5s;
@@ -221,17 +222,17 @@ body {
 }
 .enlaces:hover {
   background-color: rgb(173, 181, 189);
-  color: rgb(33, 37, 41);
+  color: #000;
 }
 
 .h2-titulos {
   padding-top: 20px;
   font-size: 5rem;
   font-weight: 900;
-  color: rgb(33, 37, 41);
+  color: #000;
 }
 
-.carousel-caption--relative {
+.carousel-caption--relative, .carousel-caption--relative-zap {
   position: relative;
   right: 15%;
   bottom: 1.25rem;
@@ -240,6 +241,11 @@ body {
   padding-bottom: 1.25rem;
   color: #000;
   text-align: center;
+}
+
+.carousel-caption--relative-zap {
+  position: absolute !important;
+  left: 15% !important;
 }
 
 /* personalizacion la page sobre nosotros*/
@@ -251,7 +257,7 @@ body {
   text-align: right;
   font-size: 4rem;
   font-weight: 900;
-  color: rgb(33, 37, 41);
+  color: #000;
   padding-right: 10px;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -296,7 +302,7 @@ body {
 }
 
 .article-p-dark {
-  color: rgb(33, 37, 41);
+  color: #000;
   font-size: 1rem;
   font-weight: 300;
   width: 70%;
@@ -320,12 +326,20 @@ body {
   height: auto;
 }
 
+.bg-dark {
+  background-color: #000 !important;
+}
+
+.border-dark {
+  border-color: #000 !important;
+}
+
 .h1-tiendas {
   margin: 30px 0 30px 0;
   text-align: center;
   font-size: 4rem;
   font-weight: 900;
-  color: rgb(33, 37, 41);
+  color: #000;
 }
 
 .conteiner-padre {
@@ -678,6 +692,10 @@ body {
   .panel div p {
     font-size: 1rem;
   }
+
+  .h2-titulos {
+    font-size: 4rem;
+  }
 }
 @media only screen and (max-width: 576px) {
   .article1 h2 {
@@ -759,9 +777,9 @@ body {
   }
 
   .panel.active {
-    -webkit-box-flex: 4;
-        -ms-flex: 4;
-            flex: 4;
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
   }
 
   .cajas {
@@ -772,5 +790,20 @@ body {
   .cajas img {
     width: 50px;
     margin: 20px 0 20px 0;
+  }
+
+  .carousel-caption--relative, .carousel-caption--relative-zap {
+    margin-bottom: 30px;
+  }
+
+  .carousel-caption--relative-zap {
+    position: relative !important;
+    left: 0 !important;
+    bottom: 3.5rem;
+  }
+
+  .w-60 {
+    width: 75% !important;
+    height: 90% !important;
   }
 }

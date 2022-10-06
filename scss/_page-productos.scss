@@ -4,13 +4,13 @@
     padding: 6px 20px;
     border-radius: 30px;
     border: 1.5px solid transparent;
-    background: map-get($colores, dark3 );
+    background: map-get($colores, dark1 );
     color: map-get($colores, light );
     text-decoration: none;
     transition: .5s;
     &:hover{
         background-color: map-get($colores, gris-claro );
-        color: map-get($colores, dark3 );
+        color: map-get($colores, dark1);
     }
 }
 
@@ -18,7 +18,7 @@
     padding-top: 20px;
     font-size: 5rem;
     font-weight: 900;
-    color: map-get($colores, dark3 );
+    color: map-get($colores, dark1 );
 }
 
 .carousel-caption--relative {
@@ -30,4 +30,10 @@
     padding-bottom: 1.25rem;
     color: map-get($colores, dark1 );
     text-align: center;
+}
+
+.carousel-caption--relative-zap{
+    @extend .carousel-caption--relative;
+    position: absolute !important;
+    left: 15% !important;
 }
