@@ -36,16 +36,18 @@
     margin-left: 0 !important;
 }
 
+/* caja padre del video multimedia*/
 .div-video{
     background-color: transparent;
     position: relative;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* estilos video*/
 .video{
     height: 800px;
     object-fit: cover;
@@ -61,6 +63,8 @@
     opacity: .5;
     mix-blend-mode: overlay;
 }
+
+
 /*retoques a section del main index*/
 .redondeo-card{
     border-radius: 20px !important;

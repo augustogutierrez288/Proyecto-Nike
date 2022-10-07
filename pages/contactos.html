@@ -18,8 +18,8 @@
     <title>Contactos - Nike AR</title>
 </head>
 <body>
-    <header class="container-fluid">
-        <div class="row">
+    <header class="container-fluid p-0">
+        <div class="row m-0">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="../index.html"><img  style="height:60px" src="../assets/img/swoosh-icono-back.webp" alt="icono-nike-back"></a>
@@ -41,10 +41,15 @@
     </header>
 
     <main class="conteiner-fluid">
-        <div class="row col-12 m-0 p-0">
+
+        <section class="row col-12 m-0 p-0">
             <h1 class="h1-tiendas">NUESTROS CANALES <br> DE CONTACTOS</h1>
-        </div>
-        <div class="row col-12 m-0 p-0 caja-padre">
+        </section>
+
+        <!--Aqui tendran una seccion que contiene 4 cajas hijas. Cada caja contiene un icono y texto de contacto-->
+        <section class="row col-12 m-0 p-0 caja-padre">
+
+            <!--PRODUCTOS Y PEDIDOS-->
             <div class=" col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 col-xxl-3 cajas">
                 <img class="icono" src="../assets/img/phone.png" alt="icono-phone">
                 <p>
@@ -56,6 +61,7 @@
                     Sábado
                 </p>
             </div>
+
             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 col-xxl-3 cajas">
                 <img class="icono" src="../assets/img/chat.png" alt="icono-chat">
                 <p>
@@ -67,6 +73,8 @@
                     Sábado
                 </p>
             </div>
+
+            <!--NRC Y NTC-->
             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 col-xxl-3 cajas">
                 <img class="icono" src="../assets/img/phone.png" alt="icono-phone">
                 <p>
@@ -76,6 +84,8 @@
                     Lunes - Viernes
                 </p>
             </div>
+
+            <!--BUSCADOR DE TIENDAS NIKE OFICIALES-->
             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 col-xxl-3 cajas">
                 <a href="https://www.nike.com/es/retail"><img class="icono" src="../assets/img/store.png" alt="icono-store"></a>
                 <p>
@@ -83,7 +93,8 @@
                     Encuentra tu Nike Store más cercana
                 </p>
             </div>
-        </div>
+
+        </section>
     </main>
 
     <footer class="conteiner-fluid footer">

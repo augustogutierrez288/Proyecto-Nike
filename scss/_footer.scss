@@ -29,6 +29,11 @@
     }
 }
 
+.footer--about{
+    @extend .footer;
+    margin-top: 0 !important;
+}
+
 .logos{
     a{
         img{

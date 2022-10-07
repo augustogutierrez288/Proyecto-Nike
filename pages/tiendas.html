@@ -17,8 +17,8 @@
     <title>Factory Store - Nike AR</title>
 </head>
 <body>
-    <header class="container-fluid">
-        <div class="row">
+    <header class="container-fluid p-0">
+        <div class="row m-0">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="../index.html"><img  style="height:60px" src="../assets/img/swoosh-icono-back.webp" alt="icono-nike-back"></a>
@@ -41,16 +41,20 @@
 
     <main class="conteiner-fluid">
 
-        <div class="row col-12 m-0 p-0">
+        <!--section que contiene al titulo de la pagina-->
+        <section class="row col-12 m-0 p-0">
             <h1 class="h1-tiendas">NIKE FACTORY STORES</h1>
-        </div>
-        <div class="row col-12 m-0 p-0">
-            <div class="col-12 conteiner-padre p-0">
+        </section>
+
+        <!--section que contendra 7 articulos- cada uno sera una tienda oficial de nike-->
+        <section class="row col-12 m-0 p-0">
+
+            <section class="col-12 conteiner-padre p-0">
                 <div class="conteiner-hijo p-0">
-                    <div class="panel active" id="panel1">
+                    <article class="panel active" id="panel1">
                         <div>
-                            <h3>NIKE FACTORY STORE</h3>
-                            <h2>BARRACAS</h2>
+                            <p>NIKE FACTORY STORE</p>
+                            <h3>BARRACAS</h3>
                             <p>
                                 California 2098, CABA <br>
                                 Tel: (011) 4302 - 0600 <br>
@@ -59,11 +63,11 @@
                                 10:00 hs. a 20:00 hs.
                             </p>
                         </div>
-                    </div>
-                    <div class="panel" id="panel2">
+                    </article>
+                    <article class="panel" id="panel2">
                         <div>
-                            <h3>NIKE FACTORY STORE</h3>
-                            <h2>CHACARITA</h2>
+                            <p>NIKE FACTORY STORE</p>
+                            <h3>CHACARITA</h3>
                             <p>
                                 Av. Corrientes 6433, CABA <br>
                                 Tel: (011) 4553 - 1269 <br>
@@ -72,11 +76,11 @@
                                 10:00 hs. a 20:00 hs
                             </p>
                         </div>
-                    </div>
-                    <div class="panel" id="panel3">
+                    </article>
+                    <article class="panel" id="panel3">
                         <div>
-                            <h3>NIKE FACTORY STORE</h3>
-                            <h2>RIVADAVIA</h2>
+                            <p>NIKE FACTORY STORE</p>
+                            <h3>RIVADAVIA</h3>
                             <p>
                                 Av. Rivadavia 8961, CABA <br>
                                 Tel: (011) 4671 - 8218 <br>
@@ -85,11 +89,11 @@
                                 10:00 hs. a 20:00 hs
                             </p>
                         </div>
-                    </div>
-                    <div class="panel" id="panel4">
+                    </article>
+                    <article class="panel" id="panel4">
                         <div>
-                            <h3>NIKE FACTORY STORE</h3>
-                            <h2>ARCOS</h2>
+                            <p>NIKE FACTORY STORE</p>
+                            <h3>ARCOS</h3>
                             <p>
                                 Paraguay 4979, CABA <br>
                                 Tel: (011) 4851 - 6631 <br>
@@ -98,11 +102,11 @@
                                 10:00 hs. a 21:00 hs.
                             </p>
                         </div>
-                    </div>
-                    <div class="panel" id="panel5">
+                    </article>
+                    <article class="panel" id="panel5">
                         <div>
-                            <h3>NIKE FACTORY STORE</h3>
-                            <h2>LA PLATA</h2>
+                            <p>NIKE FACTORY STORE</p>
+                            <h3>LA PLATA</h3>
                             <p>
                                 Camino Parque Centenario 2565 <br>
                                 Tel: (0221) 484 - 6400 <br>
@@ -111,11 +115,11 @@
                                 10:00 hs. a 20:00 hs.
                             </p>
                         </div>
-                    </div>
-                    <div class="panel" id="panel6">
+                    </article>
+                    <article class="panel" id="panel6">
                         <div>
-                            <h3>NIKE FACTORY STORE</h3>
-                            <h2>SOLEIL</h2>
+                            <p>NIKE FACTORY STORE</p>
+                            <h3>SOLEIL</h3>
                             <p>
                                 Soleil Premium Outlet <br>
                                 Bernardo De Irigoyen 2647, Boulogne <br>
@@ -125,11 +129,11 @@
                                 10:00 hs. a 22:00 hs.
                             </p>
                         </div>
-                    </div>
-                    <div class="panel" id="panel7">
+                    </article>
+                    <article class="panel" id="panel7">
                         <div>
-                            <h3>NIKE FACTORY STORE</h3>
-                            <h2>QUILMES</h2>
+                            <p>NIKE FACTORY STORE</p>
+                            <h3>QUILMES</h3>
                             <p>
                                 Av. Calchaquí 3950 <br>
                                 Tel: (011) 5065 - 0533 <br>
@@ -138,11 +142,13 @@
                                 10:00 hs. a 22:00 hs.
                             </p>
                         </div>
-                    </div>
+                    </article>
                 </div>
-            </div>
-        </div>
-    
+            </section>
+
+        </section>
+        
+        <!--enlace al archivo js que contiene la funcionalidad de las cards flex-->
         <script src="../scripts/script.js"></script>
     </main>
 

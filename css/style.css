@@ -1,5 +1,4 @@
 body {
-  overflow-x: hidden !important;
   font-family: "Heebo", sans-serif !important;
 }
 
@@ -20,35 +19,39 @@ body {
   font-size: 1rem !important;
 }
 
-.footer {
+.footer, .footer--about {
   margin-top: 50px;
   background-color: #000;
 }
-.footer .lista1 {
+.footer .lista1, .footer--about .lista1 {
   margin-top: 15px;
   margin-left: 20px;
 }
-.footer .lista1 li {
+.footer .lista1 li, .footer--about .lista1 li {
   list-style-type: none;
 }
-.footer .lista1 li a {
+.footer .lista1 li a, .footer--about .lista1 li a {
   text-decoration: none;
   font-size: 12px;
   font-weight: 400;
   color: #fff;
 }
-.footer .lista2 {
+.footer .lista2, .footer--about .lista2 {
   margin-top: 15px;
   margin-left: 20px;
 }
-.footer .lista2 li {
+.footer .lista2 li, .footer--about .lista2 li {
   list-style-type: none;
 }
-.footer .lista2 li a {
+.footer .lista2 li a, .footer--about .lista2 li a {
   text-decoration: none;
   font-size: 12px;
   font-weight: 200;
   color: #fff;
+}
+
+.footer--about {
+  margin-top: 0 !important;
 }
 
 .logos a img {
@@ -109,10 +112,11 @@ body {
   margin-left: 0 !important;
 }
 
+/* caja padre del video multimedia*/
 .div-video {
   background-color: transparent;
   position: relative;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -125,6 +129,7 @@ body {
           align-items: center;
 }
 
+/* estilos video*/
 .video {
   height: 800px;
   -o-object-fit: cover;
@@ -225,9 +230,10 @@ body {
   color: #000;
 }
 
-.h2-titulos {
+.h2-titulos, .h2-titulos--wear {
   padding-top: 20px;
   font-size: 5rem;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 900;
   color: #000;
 }
@@ -246,6 +252,10 @@ body {
 .carousel-caption--relative-zap {
   position: absolute !important;
   left: 15% !important;
+}
+
+.carousel-inner {
+  overflow: visible !important;
 }
 
 /* personalizacion la page sobre nosotros*/
@@ -337,8 +347,9 @@ body {
 .h1-tiendas {
   margin: 30px 0 30px 0;
   text-align: center;
-  font-size: 4rem;
-  font-weight: 900;
+  font-size: 3.7rem;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 800;
   color: #000;
 }
 
@@ -426,22 +437,18 @@ body {
           align-items: center;
   text-align: center;
 }
-.panel div h3 {
+.panel div p {
   font-size: 1rem;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
   margin-bottom: 15px;
   opacity: 0;
 }
-.panel div h2 {
+.panel div h3 {
   font-size: 2rem;
-  font-weight: 900;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 800;
   margin-bottom: 25px;
-  opacity: 0;
-}
-.panel div p {
-  font-size: 1rem;
-  font-weight: 300;
-  margin: 0;
   opacity: 0;
 }
 
@@ -576,10 +583,6 @@ body {
     padding: 5px 0 5px 0;
   }
 
-  .h2-snkrs {
-    font-size: 4rem;
-  }
-
   .conteiner-padre {
     height: auto;
   }
@@ -597,6 +600,10 @@ body {
     height: 30px;
   }
 
+  .h1-tiendas {
+    font-size: 4rem;
+  }
+
   .panel div {
     width: auto;
     height: auto;
@@ -605,13 +612,16 @@ body {
             justify-content: space-between;
   }
   .panel div h3 {
-    font-size: 2rem;
-  }
-  .panel div h2 {
     font-size: 4rem;
   }
   .panel div p {
     font-size: 2rem;
+  }
+
+  .panel.active {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
   }
 
   .caja-padre {
@@ -668,32 +678,15 @@ body {
     height: 20px;
   }
 
-  .h2-snkrs {
-    font-size: 3rem;
-  }
-
   .h1-tiendas {
     font-size: 3rem;
   }
 
-  .panel div {
-    width: auto;
-    height: auto;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
   .panel div h3 {
-    font-size: 1rem;
-  }
-  .panel div h2 {
     font-size: 3rem;
   }
-  .panel div p {
-    font-size: 1rem;
-  }
 
-  .h2-titulos {
+  .h2-titulos, .h2-titulos--wear {
     font-size: 4rem;
   }
 }
@@ -748,13 +741,13 @@ body {
     height: 600px;
   }
 
-  .footer .lista1 {
+  .footer .lista1, .footer--about .lista1 {
     margin-top: 20px;
     margin-left: 0;
     padding: 0;
   }
 
-  .footer .lista2 {
+  .footer .lista2, .footer--about .lista2 {
     margin-left: 0;
     margin-bottom: 0;
     padding: 0;
@@ -774,6 +767,22 @@ body {
 
   .h1-tiendas {
     font-size: 40px;
+  }
+
+  .h2-titulos, .h2-titulos--wear {
+    font-size: 3.5rem;
+  }
+
+  .h2-titulos--wear {
+    margin-top: 60px;
+    font-size: 2.5rem;
+  }
+
+  .panel div h3 {
+    font-size: 3rem;
+  }
+  .panel div p {
+    font-size: 1rem;
   }
 
   .panel.active {
@@ -797,9 +806,8 @@ body {
   }
 
   .carousel-caption--relative-zap {
-    position: relative !important;
-    left: 0 !important;
-    bottom: 3.5rem;
+    bottom: -3.5rem;
+    z-index: 2;
   }
 
   .w-60 {
