@@ -43,6 +43,8 @@
     left: 15% !important;
 }
 
-.carousel-inner {
-    overflow: visible !important;
+.carousel-inner--visible {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
 }

@@ -254,8 +254,10 @@ body {
   left: 15% !important;
 }
 
-.carousel-inner {
-  overflow: visible !important;
+.carousel-inner--visible {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
 }
 
 /* personalizacion la page sobre nosotros*/
@@ -451,13 +453,16 @@ body {
   margin-bottom: 25px;
   opacity: 0;
 }
+.panel div .texto-panel {
+  display: none;
+}
 
 .panel.active {
   -webkit-box-flex: 5;
       -ms-flex: 5;
           flex: 5;
 }
-.panel.active div h3, .panel.active div h2, .panel.active div p {
+.panel.active div h3, .panel.active div p {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in 0.4s;
   transition: opacity 0.3s ease-in 0.4s;
@@ -521,7 +526,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 3px solid rgb(173, 181, 189);
+  border: 1px solid rgb(173, 181, 189);
   margin: 10px 10px 0 10px;
   text-align: center;
   width: 240px;
@@ -607,9 +612,9 @@ body {
   .panel div {
     width: auto;
     height: auto;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .panel div h3 {
     font-size: 4rem;
@@ -617,11 +622,22 @@ body {
   .panel div p {
     font-size: 2rem;
   }
+  .panel div .texto-panel {
+    display: block;
+    color: #fff;
+    font-size: 3rem;
+    width: 800;
+    font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    opacity: 0.5;
+  }
 
   .panel.active {
     -webkit-box-flex: 2;
         -ms-flex: 2;
             flex: 2;
+  }
+  .panel.active .texto-panel {
+    display: none;
   }
 
   .caja-padre {
@@ -784,6 +800,9 @@ body {
   .panel div p {
     font-size: 1rem;
   }
+  .panel div .texto-panel {
+    font-size: 2rem;
+  }
 
   .panel.active {
     -webkit-box-flex: 2;
@@ -813,5 +832,9 @@ body {
   .w-60 {
     width: 75% !important;
     height: 90% !important;
+  }
+
+  .carousel-inner--visible {
+    overflow: visible;
   }
 }

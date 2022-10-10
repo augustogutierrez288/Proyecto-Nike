@@ -53,10 +53,13 @@
         }
         h3{
             font-size: 2rem;
-            font-family: "Nike Futura","Helvetica Neue",Helvetica,Arial,sans-serif;;
+            font-family: "Nike Futura","Helvetica Neue",Helvetica,Arial,sans-serif;
             font-weight: 800;
             margin-bottom: 25px;
             opacity: 0;
+        }
+        .texto-panel{
+            display: none;
         }
     }
 }
@@ -64,7 +67,7 @@
 .panel.active{
     flex: 5;
     div{
-        h3,h2,p{
+        h3,p{
             opacity: 1;
             transition: opacity 0.3s ease-in 0.4s;
         }
