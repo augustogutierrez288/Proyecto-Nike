@@ -837,4 +837,8 @@ body {
   .carousel-inner--visible {
     overflow: visible;
   }
+
+  .dimensity {
+    height: 80vh;
+  }
 }
