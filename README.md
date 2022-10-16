@@ -23,18 +23,18 @@ HTML5, CSS3, SASS, PREPROS, BOOTSTRAP5, JAVASCRIPT
 
 ## Screenshots
 
-###Page Inicio
+### Page Inicio
 ![index](./assets/capturas-de-pantalla/index.png)
 
-###Page Productos
+### Page Productos
 ![page contacto](./assets/capturas-de-pantalla/page-productos.png)
 
-###Page Tiendas
+### Page Tiendas
 ![page tiendas](./assets/capturas-de-pantalla/page-tiendas.png)
 
-###Page Sobre Nosotros
+### Page Sobre Nosotros
 ![page nuestra historia](./assets/capturas-de-pantalla/page-nuestra-historia.png)
 
-###Page Contactos 
+### Page Contactos 
 ![page contactos](./assets/capturas-de-pantalla/page-contactos.png)
 
