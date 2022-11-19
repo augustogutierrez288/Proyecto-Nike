@@ -10,6 +10,13 @@
 @import "./page-contactos";
 
 @media only screen and ( max-width: 992px){
+    .article2{
+        background-color: map-get($colores, light) !important;
+        border-color: map-get($colores, light) !important;
+        h2{
+            color: map-get($colores , dark1 );
+        }
+    }
     .article-p-light{
         padding-top: 22px;
         padding-bottom: 22px;
