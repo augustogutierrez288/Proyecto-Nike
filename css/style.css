@@ -541,8 +541,8 @@ body {
 
 @media only screen and (max-width: 992px) {
   .article2 {
-    background-color: #fff !important;
-    border-color: #fff !important;
+    background-color: rgb(248, 249, 250) !important;
+    border-color: rgb(248, 249, 250) !important;
   }
   .article2 h2 {
     color: #000;

@@ -11,8 +11,8 @@
 
 @media only screen and ( max-width: 992px){
     .article2{
-        background-color: map-get($colores, light) !important;
-        border-color: map-get($colores, light) !important;
+        background-color: rgb(248,249,250)  !important;
+        border-color: rgb(248,249,250) !important;
         h2{
             color: map-get($colores , dark1 );
         }
