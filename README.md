@@ -1,40 +1,28 @@
+# WebSite Nike 
 
-# Proyecto Web Site Nike AR
+## Introduccion
 
-Este proyecto fue creado y pensado para el curso desarrollo web de CoderHouse. 
-Este es un proyecto final el cual me base en la pagina oficial de Nike Argentina para copiar y modificar las partes que me hubieran gustado que tenga la pagina oficial.
+¿De qué trata?
+Es un proyecto trabajado con el fin de dar a conocer mis conocimientos adquiridos con el curso desarrollo web de CoderHouse con **HTML5, CSS3, SASS, BOOTSTRAP**.
 
-Este proyecto me llevo 3 meses y todavia sigue teniendo correcciones.
+Este proyecto esta pensado como una pagina de Nike, el cual podra ser consultado por los usuarios para conocer sus nuevos productos y servicios ofrecidos por NIke para Argentina. 
 
-Este fue mi primer proyecto web y es el inicio de mi camino como desarrollador Front-End Dev.
+## Stack Tecnologico 
 
-## Autor
+### Lenguales
+1. HTML5
+2. CSS3
+3. SASS 
+4. BOOTSTRAP 5.1.3
+5. JAVASCRIPT 
 
-- [@augustogutierrez288](https://github.com/augustogutierrez288)
+### Librerias
+1. Data Aos >Para las Animaciones 
 
+## Imagenes 
 
-## Feedback
+![Portada](./assets/Nike%20WebSIte%20Portada.png)
 
-Si tiene algún comentario, comuníquese conmigo en augustogutierrez8448@outlook.es
+## Enlace
 
-## 🛠 Skill 
-
-HTML5, CSS3, SASS, PREPROS, BOOTSTRAP5, JAVASCRIPT
-
-## Screenshots
-
-### Page Inicio
-![index](./assets/capturas-de-pantalla/index.png)
-
-### Page Productos
-![page contacto](./assets/capturas-de-pantalla/page-productos.png)
-
-### Page Tiendas
-![page tiendas](./assets/capturas-de-pantalla/page-tiendas.png)
-
-### Page Sobre Nosotros
-![page nuestra historia](./assets/capturas-de-pantalla/page-nuestra-historia.png)
-
-### Page Contactos 
-![page contactos](./assets/capturas-de-pantalla/page-contactos.png)
-
+[Visita mi proyecto](https://augustogutierrez288.github.io/WebSite-NikeAR/)
