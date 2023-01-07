@@ -13,8 +13,10 @@ Este proyecto esta pensado como una pagina de Nike, el cual podra ser consultado
 1. HTML5
 2. CSS3
 3. SASS 
-4. BOOTSTRAP 5.1.3
-5. JAVASCRIPT 
+4. JAVASCRIPT 
+
+### Framework
+1. BOOTSTRAP 5.1.3
 
 ### Librerias
 1. Data Aos >Para las Animaciones 
